@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "789beb194e830477146bd26d9879dc2c"
-build_time: [540823602, 598909000]
-inputs:
-  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Nest-0.4.0/Sources/Nest.swift": [540823587, 0]

@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "ffeefeb5ccf0dc2e8576cf1185a8414f"
-build_time: [540843635, 718203000]
-inputs:
-  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Sources/main.swift": [540843625, 0]
