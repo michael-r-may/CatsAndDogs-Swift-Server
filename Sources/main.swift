@@ -9,9 +9,11 @@ import Inquiline
 import Curassow
 
 serve { request in
+  let scheduleJson = "{\"event\": {\"speakers\": [{\"name\":\"Michael May\",\"company\":\"wrisk\"},{\"name\":\"Romain Piel\",\"company\":\"Deliveroo\"}],\"title\": \"mce^4\"}}"
+
   switch request.path {
     case "/schedule":
-      return Response(.ok, contentType: "application/json", content: "{\"hello\" : \"world\"}")
+      return Response(.ok, contentType: "application/json", content: scheduleJson)
 
     default:
       return Response(.ok, contentType: "text/plain", content: "Cats And Dogs - Swift - Server Says Hello\n")
