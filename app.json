@@ -1,0 +1,16 @@
+{
+    "name": "Cats And Dogs Swift Web Service",
+    "description": "A simple web service using Swift on Heroku. Thanks to kyelf for the original. Ref: https://devcenter.heroku.com/articles/app-json-schema",
+    "repository": "https://github.com/michael-r-may/CatsAndDogs-Swift-Server",
+    "website": "https://github.com/michael-r-may/CatsAndDogs-Swift-Server",
+    "keywords": [
+        "swift",
+        "curassow"
+        "CatsAndDogs-Swift-Server"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kylef/heroku-buildpack-swift"
+        }
+    ]
+}
