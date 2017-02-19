@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/example.build/master.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Curassow-0.6.0/Sources/example/main.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/example.build/main.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/example.build/main.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/example.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/example.build/main.swiftdeps"
+  }
+}

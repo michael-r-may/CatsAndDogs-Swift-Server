@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "1dd89189506c47d26daf63d8aa208102"
+build_time: [540823602, 602396000]
+inputs:
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Case.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Context.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Expectation.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Failure.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Global.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/GlobalContext.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Reporter.swift": [540823593, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Spectre-0.7.2/Sources/Reporters.swift": [540823593, 0]

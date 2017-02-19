@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f5d53246dc9a37ec56e52615283173d7"
+build_time: [540823610, 429106000]
+inputs:
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Connection.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/FDSet.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/FileDescriptor.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Listener.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Pipe.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/ReadableFileDescriptor.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/select.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/TCPConnection.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/TCPListener.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/UNIXConnection.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/UNIXListener.swift": [540823598, 0]
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/WritableFileDescriptor.swift": [540823598, 0]

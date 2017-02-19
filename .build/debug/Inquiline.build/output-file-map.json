@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/master.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Inquiline-0.4.0/Sources/Payload.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Payload.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Payload.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Payload~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Payload.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Inquiline-0.4.0/Sources/Request.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Request.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Request.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Request.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Inquiline-0.4.0/Sources/Response.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Response.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Response.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Response.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/Inquiline-0.4.0/Sources/Status.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Status.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Status.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Status~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/Inquiline.build/Status.swiftdeps"
+  }
+}

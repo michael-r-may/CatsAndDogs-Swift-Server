@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/master.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Connection.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Connection.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Connection.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Connection.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/FDSet.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FDSet.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FDSet.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FDSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FDSet.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/FileDescriptor.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FileDescriptor.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FileDescriptor.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/FileDescriptor.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Listener.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Listener.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Listener.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Listener~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Listener.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/Pipe.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Pipe.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Pipe.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Pipe~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/Pipe.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/ReadableFileDescriptor.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/ReadableFileDescriptor.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/ReadableFileDescriptor.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/ReadableFileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/ReadableFileDescriptor.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/select.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/select.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/select.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/select~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/select.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/TCPConnection.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPConnection.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPConnection.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPConnection.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/TCPListener.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPListener.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPListener.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPListener~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/TCPListener.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/UNIXConnection.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXConnection.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXConnection.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXConnection.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/UNIXListener.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXListener.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXListener.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXListener~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/UNIXListener.swiftdeps"
+  },
+  "/Users/shazam/Documents/CatsAndDogs-Swift-Server/Packages/fd-0.2.2/Sources/WritableFileDescriptor.swift": {
+    "dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/WritableFileDescriptor.d",
+    "object": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/WritableFileDescriptor.swift.o",
+    "swiftmodule": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/WritableFileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/shazam/Documents/CatsAndDogs-Swift-Server/.build/debug/fd.build/WritableFileDescriptor.swiftdeps"
+  }
+}

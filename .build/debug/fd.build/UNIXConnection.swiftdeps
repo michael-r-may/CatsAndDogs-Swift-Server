@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UNIXConnection"
+provides-nominal:
+- "C2fd14UNIXConnection"
+provides-member:
+- ["C2fd14UNIXConnection", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Connection"
+- "FileDescriptor"
+- "AssignmentPrecedence"
+- "FileNumber"
+- "UNIXConnection"
+depends-member:
+- ["Ps9AnyObject", "fileNumber"]
+- ["Ps9AnyObject", ""]
+- ["P2fd10Connection", "fileNumber"]
+- ["P2fd10Connection", ""]
+- ["P2fd14FileDescriptor", "fileNumber"]
+- ["P2fd14FileDescriptor", ""]
+- ["P2fd22ReadableFileDescriptor", "fileNumber"]
+- ["P2fd22ReadableFileDescriptor", ""]
+- ["C2fd14UNIXConnection", "FileNumber"]
+- ["C2fd14UNIXConnection", "deinit"]
+- ["C2fd14UNIXConnection", "fileNumber"]
+- ["C2fd14UNIXConnection", "init"]
+- ["P2fd22WritableFileDescriptor", "fileNumber"]
+- ["P2fd22WritableFileDescriptor", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "P2fd10Connection"
+- "P2fd14FileDescriptor"
+- "P2fd22ReadableFileDescriptor"
+- "C2fd14UNIXConnection"
+- "P2fd22WritableFileDescriptor"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "7a1d152c9307f811497db9637c4ceaf7"
