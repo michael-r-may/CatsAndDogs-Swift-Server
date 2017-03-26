@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663CC59D1E8813000000653F /* dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CC59C1E8813000000653F /* dates.swift */; };
+		OBJ_102 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Payload.swift */; };
+		OBJ_103 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Request.swift */; };
+		OBJ_104 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Response.swift */; };
+		OBJ_105 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Status.swift */; };
+		OBJ_107 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_108 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_116 /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ArgumentConvertible.swift */; };
+		OBJ_117 /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ArgumentDescription.swift */; };
+		OBJ_118 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ArgumentParser.swift */; };
+		OBJ_119 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Command.swift */; };
+		OBJ_120 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* CommandRunner.swift */; };
+		OBJ_121 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Commands.swift */; };
+		OBJ_122 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CommandType.swift */; };
+		OBJ_123 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Error.swift */; };
+		OBJ_124 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Group.swift */; };
+		OBJ_126 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_133 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Connection.swift */; };
+		OBJ_134 /* FDSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* FDSet.swift */; };
+		OBJ_135 /* FileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* FileDescriptor.swift */; };
+		OBJ_136 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Listener.swift */; };
+		OBJ_137 /* Pipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Pipe.swift */; };
+		OBJ_138 /* ReadableFileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ReadableFileDescriptor.swift */; };
+		OBJ_139 /* select.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* select.swift */; };
+		OBJ_140 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TCPConnection.swift */; };
+		OBJ_141 /* TCPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TCPListener.swift */; };
+		OBJ_142 /* UNIXConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UNIXConnection.swift */; };
+		OBJ_143 /* UNIXListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UNIXListener.swift */; };
+		OBJ_144 /* WritableFileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* WritableFileDescriptor.swift */; };
+		OBJ_146 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_153 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Address.swift */; };
+		OBJ_154 /* Arbiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Arbiter.swift */; };
+		OBJ_155 /* AsyncronousWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* AsyncronousWorker.swift */; };
+		OBJ_156 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Configuration.swift */; };
+		OBJ_157 /* Curassow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Curassow.swift */; };
+		OBJ_158 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Data.swift */; };
+		OBJ_159 /* DispatchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* DispatchWorker.swift */; };
+		OBJ_160 /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* HTTPParser.swift */; };
+		OBJ_161 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Logger.swift */; };
+		OBJ_162 /* Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Signals.swift */; };
+		OBJ_163 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Socket.swift */; };
+		OBJ_164 /* SynchronousWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* SynchronousWorker.swift */; };
+		OBJ_165 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Worker.swift */; };
+		OBJ_167 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_168 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_169 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_170 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_171 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* main.swift */; };
+		OBJ_184 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_185 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_186 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_187 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_188 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_189 /* Curassow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Curassow.framework */; };
+		OBJ_201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* main.swift */; };
+		OBJ_202 /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* schedule.swift */; };
+		OBJ_204 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_205 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_206 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_207 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_208 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_209 /* Curassow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Curassow.framework */; };
+		OBJ_81 /* Nest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Nest.swift */; };
+		OBJ_88 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Case.swift */; };
+		OBJ_89 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Context.swift */; };
+		OBJ_90 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Expectation.swift */; };
+		OBJ_91 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Failure.swift */; };
+		OBJ_92 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Global.swift */; };
+		OBJ_93 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* GlobalContext.swift */; };
+		OBJ_94 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Reporter.swift */; };
+		OBJ_95 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Reporters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663CC5871E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_76;
+			remoteInfo = Nest;
+		};
+		663CC5881E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC5891E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC58A1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC58B1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_76;
+			remoteInfo = Nest;
+		};
+		663CC58C1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC58D1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_97;
+			remoteInfo = Inquiline;
+		};
+		663CC58E1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_111;
+			remoteInfo = Commander;
+		};
+		663CC58F1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_128;
+			remoteInfo = fd;
+		};
+		663CC5901E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_76;
+			remoteInfo = Nest;
+		};
+		663CC5911E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC5921E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_97;
+			remoteInfo = Inquiline;
+		};
+		663CC5931E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_111;
+			remoteInfo = Commander;
+		};
+		663CC5941E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_128;
+			remoteInfo = fd;
+		};
+		663CC5951E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_148;
+			remoteInfo = Curassow;
+		};
+		663CC5961E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_76;
+			remoteInfo = Nest;
+		};
+		663CC5971E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_83;
+			remoteInfo = Spectre;
+		};
+		663CC5981E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_97;
+			remoteInfo = Inquiline;
+		};
+		663CC5991E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_111;
+			remoteInfo = Commander;
+		};
+		663CC59A1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_128;
+			remoteInfo = fd;
+		};
+		663CC59B1E88038A0000653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_148;
+			remoteInfo = Curassow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663CC59C1E8813000000653F /* dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dates.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		OBJ_16 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		OBJ_25 /* ArgumentConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentConvertible.swift; sourceTree = "<group>"; };
+		OBJ_26 /* ArgumentDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentDescription.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ArgumentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_29 /* CommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRunner.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		OBJ_31 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		OBJ_36 /* FDSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDSet.swift; sourceTree = "<group>"; };
+		OBJ_37 /* FileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Pipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipe.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ReadableFileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableFileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_41 /* select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = select.swift; sourceTree = "<group>"; };
+		OBJ_42 /* TCPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		OBJ_43 /* TCPListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPListener.swift; sourceTree = "<group>"; };
+		OBJ_44 /* UNIXConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIXConnection.swift; sourceTree = "<group>"; };
+		OBJ_45 /* UNIXListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIXListener.swift; sourceTree = "<group>"; };
+		OBJ_46 /* WritableFileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritableFileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Arbiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbiter.swift; sourceTree = "<group>"; };
+		OBJ_50 /* AsyncronousWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncronousWorker.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Curassow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curassow.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		OBJ_54 /* DispatchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorker.swift; sourceTree = "<group>"; };
+		OBJ_55 /* HTTPParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParser.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		OBJ_57 /* Signals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signals.swift; sourceTree = "<group>"; };
+		OBJ_58 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_59 /* SynchronousWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronousWorker.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		OBJ_62 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_65 /* schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Nest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_69 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_70 /* Inquiline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Inquiline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_71 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_72 /* fd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = fd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_73 /* Curassow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Curassow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_74 /* example */ = {isa = PBXFileReference; lastKnownFileType = text; path = example; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_75 /* CatsAndDogs-Swift-Server */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CatsAndDogs-Swift-Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_9 /* Nest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* Nest.framework in Frameworks */,
+				OBJ_108 /* Spectre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_126 /* Spectre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_146 /* Spectre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_167 /* Nest.framework in Frameworks */,
+				OBJ_168 /* Spectre.framework in Frameworks */,
+				OBJ_169 /* Inquiline.framework in Frameworks */,
+				OBJ_170 /* Commander.framework in Frameworks */,
+				OBJ_171 /* fd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_184 /* Nest.framework in Frameworks */,
+				OBJ_185 /* Spectre.framework in Frameworks */,
+				OBJ_186 /* Inquiline.framework in Frameworks */,
+				OBJ_187 /* Commander.framework in Frameworks */,
+				OBJ_188 /* fd.framework in Frameworks */,
+				OBJ_189 /* Curassow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_204 /* Nest.framework in Frameworks */,
+				OBJ_205 /* Spectre.framework in Frameworks */,
+				OBJ_206 /* Inquiline.framework in Frameworks */,
+				OBJ_207 /* Commander.framework in Frameworks */,
+				OBJ_208 /* fd.framework in Frameworks */,
+				OBJ_209 /* Curassow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Spectre */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* Case.swift */,
+				OBJ_12 /* Context.swift */,
+				OBJ_13 /* Expectation.swift */,
+				OBJ_14 /* Failure.swift */,
+				OBJ_15 /* Global.swift */,
+				OBJ_16 /* GlobalContext.swift */,
+				OBJ_17 /* Reporter.swift */,
+				OBJ_18 /* Reporters.swift */,
+			);
+			name = Spectre;
+			path = "Packages/Spectre-0.7.2/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* Inquiline */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* Payload.swift */,
+				OBJ_21 /* Request.swift */,
+				OBJ_22 /* Response.swift */,
+				OBJ_23 /* Status.swift */,
+			);
+			name = Inquiline;
+			path = "Packages/Inquiline-0.4.0/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* Commander */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* ArgumentConvertible.swift */,
+				OBJ_26 /* ArgumentDescription.swift */,
+				OBJ_27 /* ArgumentParser.swift */,
+				OBJ_28 /* Command.swift */,
+				OBJ_29 /* CommandRunner.swift */,
+				OBJ_30 /* Commands.swift */,
+				OBJ_31 /* CommandType.swift */,
+				OBJ_32 /* Error.swift */,
+				OBJ_33 /* Group.swift */,
+			);
+			name = Commander;
+			path = "Packages/Commander-0.6.1/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* fd */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* Connection.swift */,
+				OBJ_36 /* FDSet.swift */,
+				OBJ_37 /* FileDescriptor.swift */,
+				OBJ_38 /* Listener.swift */,
+				OBJ_39 /* Pipe.swift */,
+				OBJ_40 /* ReadableFileDescriptor.swift */,
+				OBJ_41 /* select.swift */,
+				OBJ_42 /* TCPConnection.swift */,
+				OBJ_43 /* TCPListener.swift */,
+				OBJ_44 /* UNIXConnection.swift */,
+				OBJ_45 /* UNIXListener.swift */,
+				OBJ_46 /* WritableFileDescriptor.swift */,
+			);
+			name = fd;
+			path = "Packages/fd-0.2.2/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_47 /* Curassow */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_48 /* Address.swift */,
+				OBJ_49 /* Arbiter.swift */,
+				OBJ_50 /* AsyncronousWorker.swift */,
+				OBJ_51 /* Configuration.swift */,
+				OBJ_52 /* Curassow.swift */,
+				OBJ_53 /* Data.swift */,
+				OBJ_54 /* DispatchWorker.swift */,
+				OBJ_55 /* HTTPParser.swift */,
+				OBJ_56 /* Logger.swift */,
+				OBJ_57 /* Signals.swift */,
+				OBJ_58 /* Socket.swift */,
+				OBJ_59 /* SynchronousWorker.swift */,
+				OBJ_60 /* Worker.swift */,
+			);
+			name = Curassow;
+			path = "Packages/Curassow-0.6.0/Sources/Curassow";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_66 /* Tests */,
+				OBJ_67 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_61 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_62 /* main.swift */,
+			);
+			name = example;
+			path = "Packages/Curassow-0.6.0/Sources/example";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_63 /* CatsAndDogs-Swift-Server */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_64 /* main.swift */,
+				OBJ_65 /* schedule.swift */,
+				663CC59C1E8813000000653F /* dates.swift */,
+			);
+			name = "CatsAndDogs-Swift-Server";
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_66 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_68 /* Nest.framework */,
+				OBJ_69 /* Spectre.framework */,
+				OBJ_70 /* Inquiline.framework */,
+				OBJ_71 /* Commander.framework */,
+				OBJ_72 /* fd.framework */,
+				OBJ_73 /* Curassow.framework */,
+				OBJ_74 /* example */,
+				OBJ_75 /* CatsAndDogs-Swift-Server */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Nest */,
+				OBJ_10 /* Spectre */,
+				OBJ_19 /* Inquiline */,
+				OBJ_24 /* Commander */,
+				OBJ_34 /* fd */,
+				OBJ_47 /* Curassow */,
+				OBJ_61 /* example */,
+				OBJ_63 /* CatsAndDogs-Swift-Server */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* Nest */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Nest.swift */,
+			);
+			name = Nest;
+			path = "Packages/Nest-0.4.0/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_111 /* Commander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_112 /* Build configuration list for PBXNativeTarget "Commander" */;
+			buildPhases = (
+				OBJ_115 /* Sources */,
+				OBJ_125 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_127 /* PBXTargetDependency */,
+			);
+			name = Commander;
+			productName = Commander;
+			productReference = OBJ_71 /* Commander.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_128 /* fd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_129 /* Build configuration list for PBXNativeTarget "fd" */;
+			buildPhases = (
+				OBJ_132 /* Sources */,
+				OBJ_145 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_147 /* PBXTargetDependency */,
+			);
+			name = fd;
+			productName = fd;
+			productReference = OBJ_72 /* fd.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_148 /* Curassow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_149 /* Build configuration list for PBXNativeTarget "Curassow" */;
+			buildPhases = (
+				OBJ_152 /* Sources */,
+				OBJ_166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_172 /* PBXTargetDependency */,
+				OBJ_173 /* PBXTargetDependency */,
+				OBJ_174 /* PBXTargetDependency */,
+				OBJ_175 /* PBXTargetDependency */,
+				OBJ_176 /* PBXTargetDependency */,
+			);
+			name = Curassow;
+			productName = Curassow;
+			productReference = OBJ_73 /* Curassow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_177 /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_178 /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				OBJ_181 /* Sources */,
+				OBJ_183 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_190 /* PBXTargetDependency */,
+				OBJ_191 /* PBXTargetDependency */,
+				OBJ_192 /* PBXTargetDependency */,
+				OBJ_193 /* PBXTargetDependency */,
+				OBJ_194 /* PBXTargetDependency */,
+				OBJ_195 /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = OBJ_74 /* example */;
+			productType = "com.apple.product-type.tool";
+		};
+		OBJ_196 /* CatsAndDogs-Swift-Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_197 /* Build configuration list for PBXNativeTarget "CatsAndDogs-Swift-Server" */;
+			buildPhases = (
+				OBJ_200 /* Sources */,
+				OBJ_203 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_210 /* PBXTargetDependency */,
+				OBJ_211 /* PBXTargetDependency */,
+				OBJ_212 /* PBXTargetDependency */,
+				OBJ_213 /* PBXTargetDependency */,
+				OBJ_214 /* PBXTargetDependency */,
+				OBJ_215 /* PBXTargetDependency */,
+			);
+			name = "CatsAndDogs-Swift-Server";
+			productName = CatsAndDogs_Swift_Server;
+			productReference = OBJ_75 /* CatsAndDogs-Swift-Server */;
+			productType = "com.apple.product-type.tool";
+		};
+		OBJ_76 /* Nest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_77 /* Build configuration list for PBXNativeTarget "Nest" */;
+			buildPhases = (
+				OBJ_80 /* Sources */,
+				OBJ_82 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nest;
+			productName = Nest;
+			productReference = OBJ_68 /* Nest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_83 /* Spectre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_84 /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildPhases = (
+				OBJ_87 /* Sources */,
+				OBJ_96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectre;
+			productName = Spectre;
+			productReference = OBJ_69 /* Spectre.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_97 /* Inquiline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "Inquiline" */;
+			buildPhases = (
+				OBJ_101 /* Sources */,
+				OBJ_106 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_109 /* PBXTargetDependency */,
+				OBJ_110 /* PBXTargetDependency */,
+			);
+			name = Inquiline;
+			productName = Inquiline;
+			productReference = OBJ_70 /* Inquiline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CatsAndDogs-Swift-Server" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_76 /* Nest */,
+				OBJ_83 /* Spectre */,
+				OBJ_97 /* Inquiline */,
+				OBJ_111 /* Commander */,
+				OBJ_128 /* fd */,
+				OBJ_148 /* Curassow */,
+				OBJ_177 /* example */,
+				OBJ_196 /* CatsAndDogs-Swift-Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_102 /* Payload.swift in Sources */,
+				OBJ_103 /* Request.swift in Sources */,
+				OBJ_104 /* Response.swift in Sources */,
+				OBJ_105 /* Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_116 /* ArgumentConvertible.swift in Sources */,
+				OBJ_117 /* ArgumentDescription.swift in Sources */,
+				OBJ_118 /* ArgumentParser.swift in Sources */,
+				OBJ_119 /* Command.swift in Sources */,
+				OBJ_120 /* CommandRunner.swift in Sources */,
+				OBJ_121 /* Commands.swift in Sources */,
+				OBJ_122 /* CommandType.swift in Sources */,
+				OBJ_123 /* Error.swift in Sources */,
+				OBJ_124 /* Group.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_133 /* Connection.swift in Sources */,
+				OBJ_134 /* FDSet.swift in Sources */,
+				OBJ_135 /* FileDescriptor.swift in Sources */,
+				OBJ_136 /* Listener.swift in Sources */,
+				OBJ_137 /* Pipe.swift in Sources */,
+				OBJ_138 /* ReadableFileDescriptor.swift in Sources */,
+				OBJ_139 /* select.swift in Sources */,
+				OBJ_140 /* TCPConnection.swift in Sources */,
+				OBJ_141 /* TCPListener.swift in Sources */,
+				OBJ_142 /* UNIXConnection.swift in Sources */,
+				OBJ_143 /* UNIXListener.swift in Sources */,
+				OBJ_144 /* WritableFileDescriptor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_153 /* Address.swift in Sources */,
+				OBJ_154 /* Arbiter.swift in Sources */,
+				OBJ_155 /* AsyncronousWorker.swift in Sources */,
+				OBJ_156 /* Configuration.swift in Sources */,
+				OBJ_157 /* Curassow.swift in Sources */,
+				OBJ_158 /* Data.swift in Sources */,
+				OBJ_159 /* DispatchWorker.swift in Sources */,
+				OBJ_160 /* HTTPParser.swift in Sources */,
+				OBJ_161 /* Logger.swift in Sources */,
+				OBJ_162 /* Signals.swift in Sources */,
+				OBJ_163 /* Socket.swift in Sources */,
+				OBJ_164 /* SynchronousWorker.swift in Sources */,
+				OBJ_165 /* Worker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_182 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_201 /* main.swift in Sources */,
+				OBJ_202 /* schedule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_81 /* Nest.swift in Sources */,
+				663CC59D1E8813000000653F /* dates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_88 /* Case.swift in Sources */,
+				OBJ_89 /* Context.swift in Sources */,
+				OBJ_90 /* Expectation.swift in Sources */,
+				OBJ_91 /* Failure.swift in Sources */,
+				OBJ_92 /* Global.swift in Sources */,
+				OBJ_93 /* GlobalContext.swift in Sources */,
+				OBJ_94 /* Reporter.swift in Sources */,
+				OBJ_95 /* Reporters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_76 /* Nest */;
+			targetProxy = 663CC5871E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC5881E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC5891E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC58A1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_76 /* Nest */;
+			targetProxy = 663CC58B1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_173 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC58C1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_97 /* Inquiline */;
+			targetProxy = 663CC58D1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_111 /* Commander */;
+			targetProxy = 663CC58E1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_128 /* fd */;
+			targetProxy = 663CC58F1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_76 /* Nest */;
+			targetProxy = 663CC5901E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC5911E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_97 /* Inquiline */;
+			targetProxy = 663CC5921E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_111 /* Commander */;
+			targetProxy = 663CC5931E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_128 /* fd */;
+			targetProxy = 663CC5941E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_148 /* Curassow */;
+			targetProxy = 663CC5951E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_76 /* Nest */;
+			targetProxy = 663CC5961E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 663CC5971E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_97 /* Inquiline */;
+			targetProxy = 663CC5981E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_111 /* Commander */;
+			targetProxy = 663CC5991E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_128 /* fd */;
+			targetProxy = 663CC59A1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+		OBJ_215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_148 /* Curassow */;
+			targetProxy = 663CC59B1E88038A0000653F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Inquiline_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Inquiline;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Inquiline;
+			};
+			name = Release;
+		};
+		OBJ_113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Commander_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Commander;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Commander;
+			};
+			name = Debug;
+		};
+		OBJ_114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Commander_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Commander;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Commander;
+			};
+			name = Release;
+		};
+		OBJ_130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/fd_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = fd;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = fd;
+			};
+			name = Debug;
+		};
+		OBJ_131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/fd_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = fd;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = fd;
+			};
+			name = Release;
+		};
+		OBJ_150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Curassow_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Curassow;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Curassow;
+			};
+			name = Debug;
+		};
+		OBJ_151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Curassow_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Curassow;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Curassow;
+			};
+			name = Release;
+		};
+		OBJ_179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/example_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = example;
+			};
+			name = Debug;
+		};
+		OBJ_180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/example_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = example;
+			};
+			name = Release;
+		};
+		OBJ_198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/CatsAndDogs_Swift_Server_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = "CatsAndDogs-Swift-Server";
+			};
+			name = Debug;
+		};
+		OBJ_199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/CatsAndDogs_Swift_Server_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				TARGET_NAME = "CatsAndDogs-Swift-Server";
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Nest_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Nest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Nest;
+			};
+			name = Debug;
+		};
+		OBJ_79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Nest_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Nest;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Nest;
+			};
+			name = Release;
+		};
+		OBJ_85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Spectre_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Spectre;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Spectre;
+			};
+			name = Debug;
+		};
+		OBJ_86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Spectre_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Spectre;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Spectre;
+			};
+			name = Release;
+		};
+		OBJ_99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "CatsAndDogs-Swift-Server.xcodeproj/Inquiline_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Inquiline;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Inquiline;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_112 /* Build configuration list for PBXNativeTarget "Commander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_113 /* Debug */,
+				OBJ_114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_129 /* Build configuration list for PBXNativeTarget "fd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_130 /* Debug */,
+				OBJ_131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_149 /* Build configuration list for PBXNativeTarget "Curassow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_150 /* Debug */,
+				OBJ_151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_178 /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_179 /* Debug */,
+				OBJ_180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_197 /* Build configuration list for PBXNativeTarget "CatsAndDogs-Swift-Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_198 /* Debug */,
+				OBJ_199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "CatsAndDogs-Swift-Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_77 /* Build configuration list for PBXNativeTarget "Nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_78 /* Debug */,
+				OBJ_79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_84 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_85 /* Debug */,
+				OBJ_86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_98 /* Build configuration list for PBXNativeTarget "Inquiline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
