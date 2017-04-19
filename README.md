@@ -13,3 +13,8 @@ A bare bones Swift Web Service using Currasow for the Cats And Dogs Talk. Note t
 * https://github.com/RomainPiel/CatsAndDogs-kotlin-server
 * https://github.com/michael-r-may/CatsAndDogsiOS
 * https://github.com/RomainPiel/CatsAndDogs-Android
+
+## Useful Links
+* http://kotlinlang.org
+* http://swift.org
+* http://samnewman.io/patterns/architectural/bff/
