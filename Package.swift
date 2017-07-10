@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
   name: "CatsAndDogs-Swift-Server",
   dependencies: [
-    .Package(url: "https://github.com/kylef/Curassow.git", majorVersion: 0, minor: 6),
+    .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 1, minor: 7)
   ]
 )
