@@ -2,7 +2,7 @@
 A bare bones Swift Web Service using Currasow for the Cats And Dogs Talk. Note that this component is not intended to be used directly, but instead, you connect to the [Backend For Frontend](https://github.com/RomainPiel/CatsAndDogs-kotlin-bff) instead.
 
 # Deploy Locally for Testing
-```swift build ; heroku local lweb```
+```swift build && .build/debug/CatsAndDogs-Swift-Server```
 
 # Deploy Remotely on Heroku for Testing
 ```git push heroku master```
