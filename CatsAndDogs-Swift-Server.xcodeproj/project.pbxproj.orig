@@ -7,8 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66E09F031F54513D007880A8 /* schedule-kotlinconf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09F011F54513D007880A8 /* schedule-kotlinconf.swift */; };
-		66E09F041F54513D007880A8 /* schedule-mce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09F021F54513D007880A8 /* schedule-mce.swift */; };
+<<<<<<< HEAD
+		663CC59D1E8813000000653F /* dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CC59C1E8813000000653F /* dates.swift */; };
+		66E09EFD1F543518007880A8 /* schedule-kotlinconf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */; };
+		66E09EFF1F543868007880A8 /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09EFE1F543868007880A8 /* schedule.swift */; };
+		OBJ_102 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Payload.swift */; };
+		OBJ_103 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Request.swift */; };
+		OBJ_104 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Response.swift */; };
+		OBJ_105 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Status.swift */; };
+		OBJ_107 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_108 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_116 /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ArgumentConvertible.swift */; };
+		OBJ_117 /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ArgumentDescription.swift */; };
+		OBJ_118 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ArgumentParser.swift */; };
+		OBJ_119 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Command.swift */; };
+		OBJ_120 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* CommandRunner.swift */; };
+		OBJ_121 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Commands.swift */; };
+		OBJ_122 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CommandType.swift */; };
+		OBJ_123 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Error.swift */; };
+		OBJ_124 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Group.swift */; };
+		OBJ_126 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_133 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Connection.swift */; };
+		OBJ_134 /* FDSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* FDSet.swift */; };
+		OBJ_135 /* FileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* FileDescriptor.swift */; };
+		OBJ_136 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Listener.swift */; };
+		OBJ_137 /* Pipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Pipe.swift */; };
+		OBJ_138 /* ReadableFileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ReadableFileDescriptor.swift */; };
+		OBJ_139 /* select.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* select.swift */; };
+		OBJ_140 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TCPConnection.swift */; };
+		OBJ_141 /* TCPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TCPListener.swift */; };
+		OBJ_142 /* UNIXConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* UNIXConnection.swift */; };
+		OBJ_143 /* UNIXListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* UNIXListener.swift */; };
+		OBJ_144 /* WritableFileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* WritableFileDescriptor.swift */; };
+		OBJ_146 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_153 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Address.swift */; };
+		OBJ_154 /* Arbiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Arbiter.swift */; };
+		OBJ_155 /* AsyncronousWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* AsyncronousWorker.swift */; };
+		OBJ_156 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Configuration.swift */; };
+		OBJ_157 /* Curassow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Curassow.swift */; };
+		OBJ_158 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Data.swift */; };
+		OBJ_159 /* DispatchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* DispatchWorker.swift */; };
+		OBJ_160 /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* HTTPParser.swift */; };
+		OBJ_161 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Logger.swift */; };
+		OBJ_162 /* Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Signals.swift */; };
+		OBJ_163 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Socket.swift */; };
+		OBJ_164 /* SynchronousWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* SynchronousWorker.swift */; };
+		OBJ_165 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Worker.swift */; };
+		OBJ_167 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_168 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_169 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_170 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_171 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_182 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* main.swift */; };
+		OBJ_184 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_185 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_186 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_187 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_188 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_189 /* Curassow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Curassow.framework */; };
+		OBJ_201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* main.swift */; };
+		OBJ_202 /* schedule-mce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* schedule-mce.swift */; };
+		OBJ_204 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
+		OBJ_205 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
+		OBJ_206 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
+		OBJ_207 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Commander.framework */; };
+		OBJ_208 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
+		OBJ_209 /* Curassow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Curassow.framework */; };
+		OBJ_81 /* Nest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Nest.swift */; };
+		OBJ_88 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Case.swift */; };
+		OBJ_89 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Context.swift */; };
+		OBJ_90 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Expectation.swift */; };
+		OBJ_91 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Failure.swift */; };
+		OBJ_92 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Global.swift */; };
+		OBJ_93 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* GlobalContext.swift */; };
+		OBJ_94 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Reporter.swift */; };
+		OBJ_95 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Reporters.swift */; };
+=======
 		OBJ_143 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* Logger.swift */; };
 		OBJ_150 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* Socket.swift */; };
 		OBJ_151 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* SocketProtocols.swift */; };
@@ -124,6 +198,7 @@
 		OBJ_320 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* SwiftyJSON.framework */; };
 		OBJ_321 /* KituraTemplateEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* KituraTemplateEngine.framework */; };
 		OBJ_322 /* Kitura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* Kitura.framework */; };
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,9 +366,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		66E09F011F54513D007880A8 /* schedule-kotlinconf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "schedule-kotlinconf.swift"; sourceTree = "<group>"; };
-		66E09F021F54513D007880A8 /* schedule-mce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "schedule-mce.swift"; sourceTree = "<group>"; };
-		66E09F051F545171007880A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		663CC59C1E8813000000653F /* dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dates.swift; sourceTree = "<group>"; };
+		66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "schedule-kotlinconf.swift"; sourceTree = "<group>"; };
+		66E09EFE1F543868007880A8 /* schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
+		66E09F001F544D95007880A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_11 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		OBJ_16 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Payload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		OBJ_25 /* ArgumentConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentConvertible.swift; sourceTree = "<group>"; };
+		OBJ_26 /* ArgumentDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentDescription.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ArgumentParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_29 /* CommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRunner.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		OBJ_31 /* CommandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandType.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		OBJ_36 /* FDSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDSet.swift; sourceTree = "<group>"; };
+		OBJ_37 /* FileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Pipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipe.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ReadableFileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableFileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_41 /* select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = select.swift; sourceTree = "<group>"; };
+		OBJ_42 /* TCPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		OBJ_43 /* TCPListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPListener.swift; sourceTree = "<group>"; };
+		OBJ_44 /* UNIXConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIXConnection.swift; sourceTree = "<group>"; };
+		OBJ_45 /* UNIXListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNIXListener.swift; sourceTree = "<group>"; };
+		OBJ_46 /* WritableFileDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritableFileDescriptor.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Arbiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbiter.swift; sourceTree = "<group>"; };
+		OBJ_50 /* AsyncronousWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncronousWorker.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Curassow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curassow.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		OBJ_54 /* DispatchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorker.swift; sourceTree = "<group>"; };
+		OBJ_55 /* HTTPParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParser.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		OBJ_57 /* Signals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signals.swift; sourceTree = "<group>"; };
+		OBJ_58 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_59 /* SynchronousWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronousWorker.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
+		OBJ_62 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_65 /* schedule-mce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "schedule-mce.swift"; sourceTree = "<group>"; };
+		OBJ_68 /* Nest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_69 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_70 /* Inquiline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Inquiline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_71 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_72 /* fd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = fd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_73 /* Curassow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Curassow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_74 /* example */ = {isa = PBXFileReference; lastKnownFileType = text; path = example; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_75 /* CatsAndDogs-Swift-Server */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CatsAndDogs-Swift-Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_9 /* Nest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest.swift; sourceTree = "<group>"; };
+=======
 		OBJ_10 /* schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
 		OBJ_100 /* HTTPParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParser.swift; sourceTree = "<group>"; };
 		OBJ_101 /* HTTPParserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParserStatus.swift; sourceTree = "<group>"; };
@@ -401,6 +538,7 @@
 		OBJ_96 /* HTTPServerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerRequest.swift; sourceTree = "<group>"; };
 		OBJ_97 /* HTTPServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerResponse.swift; sourceTree = "<group>"; };
 		OBJ_98 /* IncomingHTTPSocketProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingHTTPSocketProcessor.swift; sourceTree = "<group>"; };
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +700,9 @@
 			path = ".build/checkouts/BlueSocket.git-3162807777605905816/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
+<<<<<<< HEAD
+		OBJ_5 = {
+=======
 		OBJ_125 /* LoggerAPI 1.7.0 */ = {
 			isa = PBXGroup;
 			children = (
@@ -672,10 +813,11 @@
 			path = bodyParser;
 			sourceTree = "<group>";
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 			isa = PBXGroup;
 			children = (
-				66E09F051F545171007880A8 /* README.md */,
+				66E09F001F544D95007880A8 /* README.md */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_11 /* Tests */,
@@ -718,7 +860,15 @@
 		OBJ_64 /* KituraTemplateEngine */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				OBJ_64 /* main.swift */,
+				66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */,
+				OBJ_65 /* schedule-mce.swift */,
+				663CC59C1E8813000000653F /* dates.swift */,
+				66E09EFE1F543868007880A8 /* schedule.swift */,
+=======
 				OBJ_65 /* TemplateEngine.swift */,
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 			);
 			name = KituraTemplateEngine;
 			path = ".build/checkouts/Kitura-TemplateEngine.git--5059963620657797085/Sources/KituraTemplateEngine";
@@ -748,8 +898,6 @@
 			children = (
 				OBJ_8 /* dates.swift */,
 				OBJ_9 /* main.swift */,
-				66E09F011F54513D007880A8 /* schedule-kotlinconf.swift */,
-				66E09F021F54513D007880A8 /* schedule-mce.swift */,
 				OBJ_10 /* schedule.swift */,
 			);
 			path = Sources;
@@ -1004,8 +1152,13 @@
 			knownRegions = (
 				en,
 			);
+<<<<<<< HEAD
 			mainGroup = OBJ_5;
+			productRefGroup = OBJ_67 /* Products */;
+=======
+			mainGroup = OBJ_5 /*  */;
 			productRefGroup = OBJ_128 /* Products */;
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1116,8 +1269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+<<<<<<< HEAD
+				OBJ_201 /* main.swift in Sources */,
+				OBJ_202 /* schedule-mce.swift in Sources */,
+				66E09EFF1F543868007880A8 /* schedule.swift in Sources */,
+				66E09EFD1F543518007880A8 /* schedule-kotlinconf.swift in Sources */,
+=======
 				OBJ_232 /* LclJSONSerialization.swift in Sources */,
 				OBJ_233 /* SwiftyJSON.swift in Sources */,
+>>>>>>> 7aef185bd3ddc2b75b08f56c26ae7af43703be7f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,8 +1345,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_311 /* dates.swift in Sources */,
-				66E09F041F54513D007880A8 /* schedule-mce.swift in Sources */,
-				66E09F031F54513D007880A8 /* schedule-kotlinconf.swift in Sources */,
 				OBJ_312 /* main.swift in Sources */,
 				OBJ_313 /* schedule.swift in Sources */,
 			);

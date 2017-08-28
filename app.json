@@ -5,7 +5,7 @@
     "website": "https://github.com/michael-r-may/CatsAndDogs-Swift-Server",
     "keywords": [
         "swift",
-        "curassow"
+        "kitura"
         "CatsAndDogs-Swift-Server"
     ],
     "buildpacks": [

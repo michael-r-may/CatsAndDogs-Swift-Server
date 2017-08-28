@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_76"
-               BuildableName = "Nest.framework"
-               BlueprintName = "Nest"
+               BlueprintIdentifier = "OBJ_138"
+               BuildableName = "LoggerAPI.framework"
+               BlueprintName = "LoggerAPI"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_83"
-               BuildableName = "Spectre.framework"
-               BlueprintName = "Spectre"
+               BlueprintIdentifier = "OBJ_145"
+               BuildableName = "Socket.framework"
+               BlueprintName = "Socket"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_97"
-               BuildableName = "Inquiline.framework"
-               BlueprintName = "Inquiline"
+               BlueprintIdentifier = "OBJ_154"
+               BuildableName = "SSLService.framework"
+               BlueprintName = "SSLService"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_111"
-               BuildableName = "Commander.framework"
-               BlueprintName = "Commander"
+               BlueprintIdentifier = "OBJ_163"
+               BuildableName = "KituraNet.framework"
+               BlueprintName = "KituraNet"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_128"
-               BuildableName = "fd.framework"
-               BlueprintName = "fd"
+               BlueprintIdentifier = "OBJ_212"
+               BuildableName = "CHTTPParser.framework"
+               BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_148"
-               BuildableName = "Curassow.framework"
-               BlueprintName = "Curassow"
+               BlueprintIdentifier = "OBJ_227"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -98,9 +98,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_177"
-               BuildableName = "example"
-               BlueprintName = "example"
+               BlueprintIdentifier = "OBJ_235"
+               BuildableName = "KituraTemplateEngine.framework"
+               BlueprintName = "KituraTemplateEngine"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -112,7 +112,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_196"
+               BlueprintIdentifier = "OBJ_242"
+               BuildableName = "Kitura.framework"
+               BlueprintName = "Kitura"
+               ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_306"
                BuildableName = "CatsAndDogs-Swift-Server"
                BlueprintName = "CatsAndDogs-Swift-Server"
                ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
@@ -143,9 +157,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_76"
-            BuildableName = "Nest.framework"
-            BlueprintName = "Nest"
+            BlueprintIdentifier = "OBJ_138"
+            BuildableName = "LoggerAPI.framework"
+            BlueprintName = "LoggerAPI"
             ReferencedContainer = "container:CatsAndDogs-Swift-Server.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
