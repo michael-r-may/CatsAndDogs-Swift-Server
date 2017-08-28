@@ -11,6 +11,8 @@ Access at
 
 # Deploy Remotely on Heroku for Testing
 ```git push heroku master```
+Access at url displayed after push, which will look like
+* https://catsanddogs-swift-server.herokuapp.com/ 
 
 ## Other Components
 * https://github.com/RomainPiel/CatsAndDogs-kotlin-bff
