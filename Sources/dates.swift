@@ -6,27 +6,27 @@
 import Foundation
 
 public extension TimeZone {
-    static var PolishTimeZone = TimeZone(identifier: "Europe/Warsaw")
+    static var Polish = TimeZone(identifier: "Europe/Warsaw")
+    static var California = TimeZone(identifier: "US/Pacific")
 }
 
 public extension Locale {
-    static var PolishLocale = Locale(identifier: "pl_PL")
+    static var Polish = Locale(identifier: "pl_PL")
+    static var US = Locale(identifier: "en_US")
 }
 
-public extension Date {
+public class RFC3339DateFormatter: DateFormatter {
     static var RFC3339DateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
     
-    init?(_ rfc3339String: String,
-          locale: Locale = Locale.PolishLocale,
-          timezone: TimeZone = TimeZone.PolishTimeZone!) {
-        let RFC3339DateFormatter = DateFormatter()
+    init(locale: Locale, timezone: TimeZone) {
+        super.init()
         
-        RFC3339DateFormatter.locale = locale
-        RFC3339DateFormatter.dateFormat = Date.RFC3339DateFormat
-        RFC3339DateFormatter.timeZone = timezone
-        
-        guard let date = RFC3339DateFormatter.date(from: rfc3339String) else { return nil }
-        
-        self = date
+        self.locale = locale
+        self.dateFormat = RFC3339DateFormatter.RFC3339DateFormat
+        self.timeZone = timezone
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }

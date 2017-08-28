@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		663CC59D1E8813000000653F /* dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663CC59C1E8813000000653F /* dates.swift */; };
+		66E09EFD1F543518007880A8 /* schedule-kotlinconf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */; };
+		66E09EFF1F543868007880A8 /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E09EFE1F543868007880A8 /* schedule.swift */; };
 		OBJ_102 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Payload.swift */; };
 		OBJ_103 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Request.swift */; };
 		OBJ_104 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Response.swift */; };
@@ -63,7 +65,7 @@
 		OBJ_188 /* fd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* fd.framework */; };
 		OBJ_189 /* Curassow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Curassow.framework */; };
 		OBJ_201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* main.swift */; };
-		OBJ_202 /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* schedule.swift */; };
+		OBJ_202 /* schedule-mce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* schedule-mce.swift */; };
 		OBJ_204 /* Nest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Nest.framework */; };
 		OBJ_205 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Spectre.framework */; };
 		OBJ_206 /* Inquiline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Inquiline.framework */; };
@@ -233,6 +235,9 @@
 
 /* Begin PBXFileReference section */
 		663CC59C1E8813000000653F /* dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dates.swift; sourceTree = "<group>"; };
+		66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "schedule-kotlinconf.swift"; sourceTree = "<group>"; };
+		66E09EFE1F543868007880A8 /* schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
+		66E09F001F544D95007880A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_11 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		OBJ_13 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
@@ -282,7 +287,7 @@
 		OBJ_60 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 		OBJ_62 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_65 /* schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
+		OBJ_65 /* schedule-mce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "schedule-mce.swift"; sourceTree = "<group>"; };
 		OBJ_68 /* Nest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_69 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_70 /* Inquiline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Inquiline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -461,15 +466,15 @@
 			path = "Packages/Curassow-0.6.0/Sources/Curassow";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				66E09F001F544D95007880A8 /* README.md */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_66 /* Tests */,
 				OBJ_67 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_61 /* example */ = {
@@ -485,8 +490,10 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_64 /* main.swift */,
-				OBJ_65 /* schedule.swift */,
+				66E09EFC1F543518007880A8 /* schedule-kotlinconf.swift */,
+				OBJ_65 /* schedule-mce.swift */,
 				663CC59C1E8813000000653F /* dates.swift */,
+				66E09EFE1F543868007880A8 /* schedule.swift */,
 			);
 			name = "CatsAndDogs-Swift-Server";
 			path = Sources;
@@ -705,7 +712,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -802,7 +809,9 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_201 /* main.swift in Sources */,
-				OBJ_202 /* schedule.swift in Sources */,
+				OBJ_202 /* schedule-mce.swift in Sources */,
+				66E09EFF1F543868007880A8 /* schedule.swift in Sources */,
+				66E09EFD1F543518007880A8 /* schedule-kotlinconf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
